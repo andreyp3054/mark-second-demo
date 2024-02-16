@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController
 import java.util.*
 
 @RestController
-@RequestMapping("/users")
+@RequestMapping("/users1")
 class UserController @Autowired constructor(private val userService: UserService) {
     // autowired means binding the controller to a service called userService impl of UserService interface
 
